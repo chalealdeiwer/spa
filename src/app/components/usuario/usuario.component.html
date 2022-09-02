@@ -1,0 +1,12 @@
+<pre *ngIf="auth.user$ | async as user">
+    <h2>Hola!! {{user.name}}</h2>
+
+    <code>
+        {{user | json}}
+
+    </code>
+
+
+    
+
+</pre>
